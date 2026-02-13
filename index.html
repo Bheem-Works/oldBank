@@ -1,108 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VIM Library - Old Bank</title>
     <!-- External Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-        <ul class="nav-links">
-            <li><a href="#" onclick="showHome(); return false;">home</a></li>
-            <li><a href="#" onclick="showLibrary(); return false;">library</a></li>
-            <li><a href="#" onclick="showUpload(); return false;" id="uploadLink">upload</a></li>
-        </ul>
-        <div class="vim-text">vim</div>
+      <ul class="nav-links">
+        <li>
+          <a
+            href="#"
+            onclick="
+              showHome();
+              return false;
+            "
+            >home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="
+              showLibrary();
+              return false;
+            "
+            >library</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            onclick="
+              showUpload();
+              return false;
+            "
+            id="uploadLink"
+            >upload</a
+          >
+        </li>
+      </ul>
+      <div class="vim-text">vim</div>
     </nav>
 
     <!-- Welcome Section -->
     <div class="welcome-section" id="welcomeSection">
-        <div class="welcome-text">
-            <strong>Hello!</strong> This is the <strong>vim library</strong> where you can see the <strong>books folder</strong> and the <strong>power</strong> and the <strong>writing folder</strong> and <strong>much more</strong> which is separated in the library and I have individually separated that folder. I hope you will like it and read it. <strong>Click the library section to read!</strong>
-        </div>
+      <div class="welcome-text">
+        <strong>Hello!</strong> This is the <strong>vim library</strong> where
+        you can see the <strong>books folder</strong> and the
+        <strong>power</strong> and the <strong>writing folder</strong> and
+        <strong>much more</strong> which is separated in the library and I have
+        individually separated that folder. I hope you will like it and read it.
+        <strong>Click the library section to read!</strong>
+      </div>
     </div>
 
     <!-- Library Container -->
     <div class="library-container" id="libraryContainer">
-        <div class="breadcrumb" id="breadcrumb">
-            <span onclick="navigateToPath('')">Library</span>
-        </div>
-        <ul class="file-list" id="fileList">
-            <li class="loading">Loading...</li>
-        </ul>
+      <div class="breadcrumb" id="breadcrumb">
+        <span onclick="navigateToPath('')">Library</span>
+      </div>
+      <ul class="file-list" id="fileList">
+        <li class="loading">Loading...</li>
+      </ul>
     </div>
 
     <!-- File Viewer -->
     <div class="file-viewer" id="fileViewer">
-        <div class="file-header">
-            <div class="file-title-wrapper">
-                <button class="back-btn" onclick="goBack()" id="backBtn" style="display: none;">← Back</button>
-                <div class="file-title" id="fileTitle">File Content</div>
-            </div>
-            <div class="file-actions">
-                <button class="edit-btn" onclick="editFile()" id="editBtn" style="display: none;">Edit</button>
-                <button class="delete-btn" onclick="deleteFile()" id="deleteBtn" style="display: none;">Delete</button>
-                <button class="close-btn" onclick="closeFileViewer()">Close</button>
-            </div>
+      <div class="file-header">
+        <div class="file-title-wrapper">
+          <!-- <button class="back-btn" onclick="goBack()" id="backBtn" style="display: none;">← Back</button> -->
+          <div class="file-title" id="fileTitle">File Content</div>
         </div>
-        <div class="file-content-wrapper">
-            <div class="file-content" id="fileContent">Loading...</div>
-            <textarea class="file-content-edit" id="fileContentEdit" style="display: none;"></textarea>
+        <div class="file-actions">
+          <button
+            class="edit-btn"
+            onclick="editFile()"
+            id="editBtn"
+            style="display: none"
+          >
+            Edit
+          </button>
+          <button
+            class="delete-btn"
+            onclick="deleteFile()"
+            id="deleteBtn"
+            style="display: none"
+          >
+            Delete
+          </button>
+          <button class="close-btn" onclick="closeFileViewer()">Close</button>
         </div>
-        <div class="edit-actions" id="editActions" style="display: none;">
-            <button class="save-btn" onclick="saveFile()">Save</button>
-            <button class="cancel-btn" onclick="cancelEdit()">Cancel</button>
-        </div>
+      </div>
+      <div class="file-content-wrapper">
+        <div class="file-content" id="fileContent">Loading...</div>
+        <textarea
+          class="file-content-edit"
+          id="fileContentEdit"
+          style="display: none"
+        ></textarea>
+      </div>
+      <div class="edit-actions" id="editActions" style="display: none">
+        <button class="save-btn" onclick="saveFile()">Save</button>
+        <button class="cancel-btn" onclick="cancelEdit()">Cancel</button>
+      </div>
     </div>
 
     <!-- File Upload Section -->
     <div class="upload-section" id="uploadSection">
-        <div class="upload-header">
-            <h2>Upload File to Library</h2>
+      <div class="upload-header">
+        <h2>Upload File to Library</h2>
+      </div>
+      <form class="upload-form" id="uploadForm">
+        <div class="upload-input-group">
+          <label for="uploadPath">Select Folder:</label>
+          <select id="uploadPath" name="path" required>
+            <option value="LibraryFolder">Library Root</option>
+          </select>
         </div>
-        <form class="upload-form" id="uploadForm">
-            <div class="upload-input-group">
-                <label for="uploadPath">Select Folder:</label>
-                <select id="uploadPath" name="path" required>
-                    <option value="LibraryFolder">Library Root</option>
-                </select>
-            </div>
-            <div class="upload-input-group">
-                <label for="fileInput">Choose File:</label>
-                <div class="file-input-wrapper">
-                    <input type="file" id="fileInput" name="file" required>
-                    <span class="file-input-button">Browse Files</span>
-                </div>
-                <div class="file-name-display" id="fileNameDisplay" style="display: none;"></div>
-            </div>
-            <button type="submit" class="upload-btn" id="uploadBtn" disabled>Upload File</button>
-        </form>
-        <div id="uploadStatus"></div>
+        <div class="upload-input-group">
+          <label for="fileInput">Choose File:</label>
+          <div class="file-input-wrapper">
+            <input type="file" id="fileInput" name="file" required />
+            <span class="file-input-button">Browse Files</span>
+          </div>
+          <div
+            class="file-name-display"
+            id="fileNameDisplay"
+            style="display: none"
+          ></div>
+        </div>
+        <button type="submit" class="upload-btn" id="uploadBtn" disabled>
+          Upload File
+        </button>
+      </form>
+      <div id="uploadStatus"></div>
     </div>
 
     <!-- Admin Login Modal -->
     <div class="modal-overlay" id="adminModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Admin Authentication</h2>
-                <button class="modal-close" onclick="closeAdminModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p>Please enter the admin password to access upload section:</p>
-                <input type="password" id="adminPassword" class="password-input" placeholder="Enter password" autofocus>
-                <div class="modal-error" id="adminError" style="display: none;"></div>
-            </div>
-            <div class="modal-footer">
-                <button class="modal-btn primary" onclick="checkAdminPassword()">Login</button>
-                <button class="modal-btn secondary" onclick="closeAdminModal()">Cancel</button>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Admin Authentication</h2>
+          <button class="modal-close" onclick="closeAdminModal()">
+            &times;
+          </button>
         </div>
+        <div class="modal-body">
+          <p>Please enter the admin password to access upload section:</p>
+          <input
+            type="password"
+            id="adminPassword"
+            class="password-input"
+            placeholder="Enter password"
+            autofocus
+          />
+          <div class="modal-error" id="adminError" style="display: none"></div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn primary" onclick="checkAdminPassword()">
+            Login
+          </button>
+          <button class="modal-btn secondary" onclick="closeAdminModal()">
+            Cancel
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- External JavaScript -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
