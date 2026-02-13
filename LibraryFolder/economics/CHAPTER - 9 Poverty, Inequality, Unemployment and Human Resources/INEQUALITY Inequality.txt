@@ -1,0 +1,30 @@
+        
+        -- INEQUALITY --
+                => Inequality refers to the unequal distributions of walk and property among the people and there is a wide gap between the poor and rich people. 
+                
+                There are different methods to calculate the inequality but the most widely used method is called gini coefficient. 
+                Under this method, The value of inequality various between the 0 and the 1. 
+                Where the 0 refers to the perfect equality and the 1 refers to the perfect inequality.
+                If the gini coefficient of a country is a nearer to zero, then it has less equality but if the value is where to 1 there in more inequality.
+                At present the inequality of Nepal is calculated to be 0.3 which means the inequality is quite less on Nepal.
+                
+        Causes of inequality : 
+                1. Difference in  educations and training /skills. 
+                2. Inheritance of property
+                3. Lack of Employment / unemployment
+                4. Social Exclusion / factors
+                5. opportunity
+                6. corruptions 
+                7. Unequal distributions of wealth 
+                8. High Population growth
+                
+        
+        Measures to reduce inequality :         
+                1. Inequality can be reduced by implementing the progressive tax system 
+                2. Inequality can be reduced by providing the employment to the unemployment populations.
+                3. Inequality can be reduced by high populations growth.
+                4. Inequality can be reduced by increasing the salary and the wages of the people. 
+                5. Free educations and skills training and health care to low-income families 
+                6. Inequality can be reduced by providing the allowance and pensions to the disabled sick, elderly, single woman etc. 
+                7. Inheritance of property increases economic inequality because wealth remains within rich families. If sons do not have automatic rights to ancestral 
+                   property and parents are allowed to distribute property freely, wealth can be shared more fairly. This can help reduce economic inequality.

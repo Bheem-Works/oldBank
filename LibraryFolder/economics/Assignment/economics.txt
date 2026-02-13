@@ -1,0 +1,459 @@
+-------------------ECONOMICS ROUGH SHEET-------------------
+
+- comparative cost theory of the international market; 
+
+--- criticized-------
+1. it is wrong that only two countries are involved and trade happen between only the two countries
+        but in real world the trade happens with the multiple countries. 
+2. it assumes wrong that only the cost of productions is labor but in the reality the cost of productions also includes such as cost of the raw materials, transport cost, tax, final cost etc.....
+3. it is wrong assumes that free-traded happen between the countries but in reality protectionism custom duties, quota system etc... as the barriers of free-trade. 
+4.it is wrong to assume that labor as the homogeneity of labor in reality laborers are differ from the another efficiency.
+5. The assumptions of the full employment is not correct. Resources are either under control or over used in reality. 
+
+--------------ASSUMPTIONS-------------------
+1. only the two countries and two goods are traded.
+2. It exit's the free-trade
+3. it only use the cost productions of labor 
+4. the laborers are perfect mobility inside the country but not between with the countries.
+5. it exits the full employment of resources.
+6. the units of laborers are homogeneous and equal to the efficiency. 
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+---------Definition------------
+
+This theory was developed by David Ricardo's. so it is also known as the Ricardo cost theory of the international market. 
+"According to the David Ricardo every countries will specialize in the productions of the commodities in which it has got comparative 
+cost advantage or least comparative disadvantages"
+
+--------------------TABLE----------------
+----------||--------||------------||------------|| exchange |
+country      c.f.p      wheat           rice         
+Nepal           10      80 kg           80 kg 
+India           10      20 kg           40 kg
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+EXCHANGE RATE - TICK 
+TYPES OF EXCHANGE RATE - TICK  
+FREE TRADE (MERITS AND DEMERITS)
+PROTECTIONISM (MERITS AND DEMERITS)
+------------------------------------------------------------------------------------------------------------------------
+
+🌍 FREE TRADE
+👉 What is Free Trade? (easy meaning)
+
+Free trade means:
+
+Countries trade without restrictions
+
+No heavy tax (tariff), quota, or bans
+
+Basically: “Buy & sell freely across borders.”
+
+✅ MERITS OF FREE TRADE
+
+1. Cheaper Goods 💸
+
+No extra tax → prices go down
+Meaning: Consumers save money
+
+2. Better Quality 📈
+
+Foreign competition pushes companies to improve
+Meaning: Bad products can’t survive
+
+3. Efficient Use of Resources ⚙️
+
+Countries focus on what they’re best at
+Meaning: Less waste, more output
+
+4. More Choices 🛍️
+
+Imports bring variety
+Meaning: Consumers get options
+
+5. Economic Growth 🚀
+
+More trade → more income
+Meaning: GDP increases
+
+❌ DEMERITS OF FREE TRADE
+1. Local Industries Suffer 🏭
+
+Small firms can’t compete with big foreign companies
+Meaning: Businesses may shut down
+
+2. Unemployment Risk 😬
+
+Industries collapse → workers lose jobs
+Meaning: Job insecurity
+
+3. Dependence on Other Countries 🔗
+
+Too much import = risky
+Meaning: Crisis if supply stops
+
+4. Unequal Benefit ⚖️
+
+Rich countries gain more
+Meaning: Poor countries stay weak
+
+
+🛡️ PROTECTIONISM
+👉 What is Protectionism? (easy meaning)
+
+Protectionism means:
+
+Government protects local industries
+
+Uses tariffs, quotas, bans, subsidies
+
+Basically: “Support our own products first.”
+
+✅ MERITS OF PROTECTIONISM
+1. Protects Infant Industries 👶
+
+New industries get time to grow
+Meaning: No early death by competition
+
+2. Saves Jobs 💼
+
+Local industries survive
+Meaning: Employment increases
+
+3. National Security 🛡️
+
+Important goods produced at home
+Meaning: Safe during war or crisis
+
+4. Reduces Trade Deficit 📉
+
+Less import, more local use
+Meaning: Money stays in the country
+
+5. Encourages Local Production 🇳🇵
+
+Boosts domestic economy
+Meaning: Stronger national industries
+
+❌ DEMERITS OF PROTECTIONISM
+1. Higher Prices 💰
+
+Imported goods become expensive
+Meaning: Consumers suffer
+
+2. Poor Quality Products 📦
+
+No competition → no improvement
+Meaning: Low standard goods
+
+3. Retaliation by Other Countries 🔁
+
+They may also impose taxes
+Meaning: Trade wars
+
+4. Inefficiency 😴
+
+Industries become lazy
+Meaning: Slow growth
+
+5. Less Global Trade 🌐
+
+Barriers reduce trade volume
+Meaning: Economic slowdown
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+-------------BUDGET--------------
+=> THE WORD OF BUDGET IS DERIVED FROM THE FRENCH WORD THE BIGOT WHICH MEANS A LEATHER BAG. 
+        AND THE BUDGET MEANS THE FINANCIAL STATEMENT WHICH CONTAINS THE ESTIMATIONS INCOMES OR EXPENDITURE OF THE GOVERNMENT FOR THE
+        COMING FISCAL YEAR. 
+        
+----------TYPES OF BUDGET------
+        (I) SURPLUS BUDGET 
+                => INCOME IS GREATER THEN THE EXPENDITURE 
+        (II) DEFICIT BUDGET 
+                => INCOME IS LESS THEN THE EXPENDITURE WHICH MEANS (EXPENDITURE > INCOME)
+        (III) BALANCE BUDGET 
+                => INCOME IS EQUAL TO THE EXPENDITURE (INCOME == EXPENDITURE)
+
+
+----------------COMPONENTS PART OF BUDGET----------------
+        => THE main components of a budget are Revenue Budget and Capital Budget, which include revenue receipts,expenditure,capital   receipts,          and capital expenditure.
+        
+-------------PROCESS OF BUDGET FORMULATION IN NEPAL---------------
+        => IN NEPAL FISCAL YEAR COUNT FROM THE FIRST SHARAWAN TO THE ENDS OF THE ASHAR.
+        
+                THE PROCESS OF BUDGET FORMULATION IS DISCUSSED AS BELOW:-
+                 (I) ESTIMATIONS OF OVER ALL INCOME AND EXPENDITURE 
+                 (II) PRIORITY ESTABLISHMENT 
+                 (III) PREPARATION OF PROJECTS
+                 (IV) SELECTIONS OF PROJECTS 
+                 (V) PREPARATION OF FINAL BUDGET
+                 (VI) AUTHORIZATION AND IMPLEMENTATION
+                 
+------------------MEANING OF FOREIGN TRADE----------------
+        => THE TRANSACTIONS OF THE GOODS AND SERVICES HAPPEN BETWEEN ACROSS THE BOUNDARY OF A FAMILY OR A COUNTRY 
+                IS CALLED A FOREIGN TRADE. 
+                
+-------------IMPORTANCE OF FOREIGN TRADE------------
+        => IMPORTANCE OF FOREIGN TRADE : 
+                (I) EXPANSION ON MARKET 
+                (II) BENEFICIAL TO CONSUMER 
+                (III) GAIN IN TECHNOLOGY 
+                (IV) FREE CHOICE 
+                (V) EMPLOYMENT GENERATOR 
+                (VI) SUPPLY OF NECESSITY GOODS 
+                (VII) IMPROVEMENT IN LIVING STANDARD. 
+                
+---------------BOT(BALANCE OF TRADE)-------------------
+        => IT IS A DIFFERENCE BETWEEN OF THE VALUE OF EXPORTS AND THE IMPORTS OF A GOODS ONLY IN A COUNTRY. 
+
+----------------------FEATURES---------------------
+        => (I). INCLUDES ONLY GOODS (NO SERVICE)
+           (II). PART OF BOP
+           (III). FAVORABLE AND UNFAVORABLE 
+           (IV). EASY TO CALCULATE 
+           
+--------------TYPES OF DUTY---------
+        => (I). FAVORABLE BOT : 
+                        -> EXPORTS MORE AND IMPORT LESS(GOOD) 
+           (II). UNFAVORABLE BOT : 
+                        -> IMPORT MORE AND EXPORT LESS(BAD)
+           (III). BALANCE BOT : 
+                        -> IMPORT AND EXPORT ARE BALANCE (NO GOOD NO BAD IT IS JUST EQUAL) 
+                        
+-----------------BOP(BALANCE OF PAYMENT)-------------------
+        => RECORD ALL THE ECONOMICS TRANSACTION HAPPEN BETWEEN A COUNTRY AND THE REST OF THE OTHER'S WORLD.
+        
+--------------------FEATURES----------------- 
+        => (I). WIDER CONCEPT 
+           (II). INCLUDES THE VISIBLE + INVISIBLE ITEMS 
+           (III). SYSTEMATIC RECORDS 
+           (IV). ALWAYS BALANCE 
+           
+-------------TYPES--------------------
+        => (I). CURRENT ACCOUNT => IT INCLUDES THE VISIBLE AND NON-VISIBLE  AND REMITTANCE.
+          (II). CAPITAL ACCOUNT => IT INCLUDES THE CAPITAL INVESTMENT THROUGH THE STOCKS, MARKET,LOAN,SHARES,BONDS ETC...
+          (III). CASH ACCOUNT   => IT INCLUDES THE STOCK OF FOREIGN EXCHANGE RATE RECEIVES LIKE GOLD, SILVER, F.D.I ETC....
+-------------- TYPES OF THE BOP--------------
+        => (I) FAVORABLE => RECEIPT IS MORE THAN THE PAYMENT
+           (II) UNFAVORABLE => PAYMENT IS MORE THEN THE RECEIPT 
+           (III) BALANCE => P === R 
+           
+------------------DIFFERENCE BETWEEN BOP AND BOT-------------
+        | Basis             | BOT                 | BOP              |
+| ----------------- | ------------------- | ---------------- |
+| Meaning           | Trade in goods only | All transactions |
+| Scope             | Narrow              | Wide             |
+| Includes services | ❌ No                | ✅ Yes            |
+| Capital flow      | ❌ No                | ✅ Yes            |
+| Nature            | Part of BOP         | Complete record  |
+
+
+MEASURE TO REDUCE THE DEFICIT BOP IN THE CONTEXT OF NEPAL 
+        => NEPAL HAS THE HIGH BOP DEFICIT AND THIS DEFICIT IS INCREASING OVER OF YEARS. 
+        
+        (I). SLOW INDUSTRY GROWTH
+        (II). HIGH IMPORTS 
+        (III). HIGH COST OF PRODUCTIONS 
+        (IV). LACK OF PROPER TRADE POLICY
+        (V) POOR QUALITY OF PRODUCTS 
+        (VI) LOW - PRODUCTIONS AND AGRICULTURE AND INDUSTRY. 
+        (VIII) LACK OF ADVERTISEMENT
+        
+        => MEASURE TO HELP TO REDUCE 
+        (I). RAPID INDUSTRIALIZATION
+        (II). REDUCING COST OF PRODUCTIONS
+        (III). PROPER TRADE POLICY 
+        (IV). ADVERTISEMENT OF THE PRODUCTS
+        (V). INCREASE IN AGRICULTURE AND INDUSTRIAL PRODUCTIONS 
+        (VI). REDUCTION IN IMPORTS 
+        (VII). TRADE DIVERSIFICATION
+        (VIII). ATTRACT FOREIGN TRADE 
+        
+        
+        
+        
+----------------------------------------------------------------------------------------------------------------------
+CHAPTER 7 (PUBLIC FINANCE) 
+
+---------PUBLIC FINANCE ?------
+        => THE GOVERNMENT COLLECTS THE REVENUE FROM DIFFERENT METHODS OR SOURCES FROM THE INTERNAL OR EXTERNAL 
+                THROUGH THE TAX AND AND NON-TAX. THIS INCOME IS SPENT BY THE GOVERNMENT FOR THE WELFARE OF 
+                PEOPLE AND DEVELOPMENT OF THE COUNTRY . THE INCOME AND EXPENDITURE OF GOVERNMENT IS PUBLIC FINANCE.
+        
+
+------------IMPORTANCE-------------
+        => A. PROVIDE THE FUNDS FOR DEVELOPMENT 
+           B. MAINTAIN THE LAW AND ORDER
+           C. REDUCE THE INEQUALITY 
+           D. CAPITAL FORMATION 
+           E. GENERATE EMPLOYMENT OPPORTUNITY
+
+-----------------GOVERNMENT EXPENDITURE------------
+        | Type                        | Meaning                    | Example             |
+| --------------------------- | -------------------------- | ------------------- |
+| Revenue Expenditure         | Day-to-day spending        | Salaries, pensions  |
+| Capital Expenditure         | Asset creation / long-term | Roads, bridges      |
+| Development Expenditure     | For economic growth        | Hydro power, schools |
+| Non-Development Expenditure | Administration & welfare   | Defense, salaries   |
+
+
+--------------TAXES-------------------
+        => IT IS THE COMPULSORY PAYMENT PAID TO THE GOVERNMENT BY THE CITIZENS 
+        
+--------TYPE------------
+        1. DIRECT TAX 
+        2. INDIRECT TAX 
+        
+____________________FEATURES OF DIRECT  TAX________________________
+        A. IS PAID BY THE DIRECTLY BY THE PERSON 
+        B. BASED ON THE INCOME/WEALTH 
+        C. FIXED BY LAW
+        D. PROGRESSIVE IN NATURE 
+        
+
+-------------------------MERITS AND THE DEMERITS OF DIRECT TAX-------------------
+        ____MERITS_____
+        A. CERTAINTY 
+        B. EQUITABLE
+        C. ECONOMY 
+        D. ELASTIC 
+        
+        ____DEMERITS_____
+        A. inconvenient
+        B. BURDEN FOR RICH 
+        C. DISCOURAGING
+        D. NARROW SCOPE
+        E. UNPOPULAR 
+        
+        
+-------------------FEATURES OF INDIRECT TAX------------- 
+        ____MERITS_____
+        A. CONVENIENT
+        B. EQUALITY 
+        C. PROGRESSIVE
+        D. BROAD BASED
+        
+        ____DEMERITS_____
+        A.NON-EQUATABLE
+        B. NON-ECONOMICAL
+        C. NON-EDUCATIVE
+        D. REGRESSIVE 
+
+------------PROGRESSIVE TAX (MAIN) -------------- 
+        - RICH PAY MORE 
+        => WHEN THE PAYER EARN MORE MONEY AND THEIR INCOME INCREASE THEY HAVE TO PAY MORE AND VICE-VERSA 
+
+---------------REGRESSIVE TAX------------
+        - POOR PAY MORE PERCENTAGE OF INCOME (OPPOSITE OF THE PROGRESSIVE)
+        => WHEN THE INCOME OF THE TAX PAYER INCREASE THE TAX DECREASE AND VICE-VERSA 
+
+---------------DIGRESSIVE TAX ---------------
+        -FIXED AFTER LIMIT
+        => IT IS THE MIXTURE OF THE REGRESSIVE AND THE PROGRESSIVE TAX AND AFTER THE SOME POINT THE TAX RATE 
+                WILL BE CONSTANT 
+                
+----------------------GOVERNMENT REVENUE AND RESOURCES------------
+        =: IT IS THE INCOME EARN BY THE GOVERNMENT FROM DIFFERENT SOURCE BOTH FROM INTERNAL AND EXTERNAL. 
+        A. TAX REVENUE := THE GOVERNMENT EARN BY FROM TAX 
+        B. NON-TAX := THE GOVERNMENT EARN BY FROM APPLYING FINES, PENALTIES, ESDEATS , PERMITS ETC....
+        C. FOREIGN GRANTS / CAPITAL RECEIPTS := LOANS , SALES OF ASSETS, FOREIGN ETC........
+
+-----------------GOVERNMENT BORROWING---------------
+        =: WHEN THE COUNTRY INCOME IS LESS THAN THE IT'S BUDGET EXPENDITURE AND THERE WILL BE THE DEFICIT 
+                SO FULL FILL THE DEFICIT THE COUNTRY WILL TAKE A LOAN OR BORROW MONEY FROM INSIDE OR ANOTHER COUNTRY 
+                AND THAT IS CALLED A GOVERNMENT BORROWING.
+
+--------------SOURCE OF GOVERNMENT BORROWING--------------
+        1. INTERNAL := MARKET BORROWING -> MONEY FROM INSTITUTIONS AND SELLS THE BONDS AND THE FUNDS 
+                        NON-MARKET -> TAKE A LOAN FROM BANK OR THE RICH INTUITIONS FOR THE CERTAIN PERIODS 
+                        OF TIME WITH THE INTEREST.
+        2. EXTERNAL := BILATERAL BORROWING, MULTI-LATERAL 
+        
+_________________________IMPORTANCE OF GOVERNMENT BORROWING_________________
+
+        =>  1. MEET BUDGET DEFICIT 
+            2. CONTROL ECONOMICS FLUCTUATIONS
+            3. FUND DEVELOPMENT PROJECT
+            4. ENCOURAGE IN DEVELOPMENT AND GROWTH. 
+
+
+
+--------------- BANKS AND FINANCIAL SYSTEM -------------
+
+-----ROLES OF BANKING SYSTEM IN THE ECONOMY-------
+        => A. MOBILIZATIONS OF SAVING 
+           B. INCREASE IN INVESTMENT
+           C. PROVIDE LOAN 
+           D. INCREASE IN EMPLOYMENT
+           E. INCREASE IN INVESTMENT
+           F. GIVES THE SECURITY 
+           G. CONTROL MONEY SUPPLY 
+           7. ECONOMIC DEVELOPMENT
+           
+-----------CLASSIFICATION OF BANKS -----------
+        => A BANK IS A FINANCIAL STATEMENT WHICH DEAL THROUGH THE MONEY THE PROCESS OF LANDING AND BORROWING. 
+        
+        CLASSIFICATIONS OF THE BANKS := 
+        A. GRADE A =: COMMERCIAL BANK 
+        B. GRADE B =: DEVELOPMENT BANK
+        C. GRADE C =: FINANCIAL BANK 
+        D. GRADE D =: MICRO - FINANCE BANK 
+        
+------------ FUNCTIONS OF BANKS ------------
+        A. CENTRAL BANKS := 
+        
+                1. BANKS OF BANK 
+                2. ISSUE OF CURRENCY NOTE 
+                3. GOVERNMENT BANKS AND ADVISOR 
+                4. MONEY CONTROL 
+                5. CREDIT CONTROL 
+                6. CLEARING HOUSE FUNCTIONS 
+                7. DEVELOPMENT FUNCTIONS 
+                8. PERMISSION GIVER 
+                
+--------COMMERCIAL BANKS ----------
+        => NEPAL BANK LIMITED IS THE FIRST BANK OF NEPAL. IT IS ESTABLISHED IN THE 1936 B.S 
+        
+----------- FUNCTIONS OF THE COMMERCIAL BANKS ----------
+        => A. ACCEPTING DEPOSITS 
+           B. ADVANCING THE LOANS 
+           C. AGENCY FUNCTIONS 
+           D. MISCELLANIES FUNCTIONS 
+           
+------ CENTRAL BANK VS COMMERCIAL BANK ---------- (TICK)
+
+------- FINANCIAL MARKET ------ 
+        => A PLACE WHERE FUNDS ARE BORROWED AND LENT. INCLUDING THE MONEY AND THE CAPITAL MARKET. 
+        
+------- TYPES ------------
+        MONEY MARKET := THIS MARKET IS FOR THE SHORT TERM. LESS THEN THE ONE YEARS 
+                => IT A PLACE OR A PROCESS WHERE SHORT-RUN CREDIT AND INSTRUMENT LIKE TREASURY
+                        BILLS, COMMERCIAL PAPER, CERTIFICATE OF DEPOSIT ARE TRADED. 
+        CAPITAL MARKET := THIS IS THE LONG - TERM MONEY MARKET. IT COULD BE MORE THEN THE ONE YEAR AND IT INCLUDES LIKE AS 
+                SHARES,BONDS,DEBENTURE ETC... 
+                
+------- FEATURES OF CAPITAL MARKET --------
+        => A. IT DEALS WITH THE LONG TERM CREDIT INSTRUMENT OF  THEN THE YEAR. 
+           B. IT IS MORE RISKY TO INVEST AS THE MATURITY PERIOD IS MORE THAN A YEAR.
+           C. IT PROVIDES THE LONG TERM CREDIT INSTRUMENT TO THE INDUSTRIAL AND BUSINESS SECTORS. 
+           D. IT DOES NOT DIRECTLY DEAL WITH THE CENTRAL BANK
+           E. THE MAIN INSTRUMENT OF THE CREDIT OF CAPITAL MARKET AND SHARES,BONDS,DEBENTURES ETC...
+        
+--------- MONETARY POLICY -------------
+        => THE POLICY WHERE CENTRAL BANK AND THE GOVERNMENT CONTROLS THE MONEY SUPPLY AND STABILIZE ECONOMY. 
+------------- TYPES --------------
+        := A. EXPANSIONARY 
+                -> INCREASE IN MONEY SUPPLY AND THE ENCOURAGE OF GROWTH.
+           B. Contractionary
+                -> REDUCE MONEY SUPPLY AND CONTROL THE INFLATION
+                
+                
+                
+------ EQUILIBRIUM OF AN INDUSTRY UNDER PRICE COMPETITIONS --- 
+

@@ -1,0 +1,854 @@
+/* ============================================
+   VIM LIBRARY - STYLESHEET
+   ============================================ */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+/* ============================================
+   NAVIGATION BAR
+   ============================================ */
+nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 15px 20px;
+    border-bottom: 3px solid #667eea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #667eea;
+}
+
+.vim-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #667eea;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+/* ============================================
+   WELCOME SECTION
+   ============================================ */
+.welcome-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 10px;
+    border-left: 5px solid #667eea;
+    border-right: 5px solid #764ba2;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text strong {
+    color: #667eea;
+    font-size: 18px;
+}
+
+/* ============================================
+   LIBRARY CONTAINER
+   ============================================ */
+.library-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.library-container.active {
+    display: block;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #666;
+    word-break: break-word;
+}
+
+.breadcrumb span {
+    cursor: pointer;
+    color: #667eea;
+    font-weight: bold;
+}
+
+.breadcrumb span:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span:last-child {
+    color: #666;
+    cursor: default;
+}
+
+.breadcrumb span:last-child:hover {
+    text-decoration: none;
+}
+
+.file-list {
+    list-style: none;
+}
+
+.file-item, .folder-item {
+    padding: 12px 15px;
+    margin: 8px 0;
+    background: #f8f9fa;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-left: 4px solid transparent;
+}
+
+.file-item:hover, .folder-item:hover {
+    background: #e9ecef;
+    border-left-color: #667eea;
+    transform: translateX(3px);
+}
+
+.folder-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.file-icon {
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.item-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    word-break: break-word;
+    flex: 1;
+}
+
+/* ============================================
+   FILE VIEWER
+   ============================================ */
+.file-viewer {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.file-viewer.active {
+    display: block;
+}
+
+.file-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #667eea;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.file-title-wrapper {
+    flex: 1;
+    min-width: 200px;
+}
+
+.back-btn {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #5a6268;
+}
+
+.file-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    word-break: break-word;
+}
+
+.file-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.edit-btn, .delete-btn, .close-btn {
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.edit-btn {
+    background: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #218838;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+.close-btn {
+    background: #667eea;
+    color: white;
+}
+
+.close-btn:hover {
+    background: #764ba2;
+}
+
+.file-content-wrapper {
+    position: relative;
+}
+
+.file-content {
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    max-height: 70vh;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.8;
+    color: #2c3e50;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Improved text file styling */
+.file-content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.file-content-edit {
+    width: 100%;
+    min-height: 400px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #667eea;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    resize: vertical;
+}
+
+.file-content.markdown {
+    white-space: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.file-content.markdown h1 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #667eea;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.file-content.markdown h2 {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: #764ba2;
+}
+
+.file-content.markdown h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #667eea;
+}
+
+.file-content.markdown p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.file-content.markdown code {
+    background: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #e83e8c;
+}
+
+.file-content.markdown strong {
+    color: #667eea;
+    font-weight: 600;
+}
+
+.pdf-viewer {
+    width: 100%;
+    height: 70vh;
+    min-height: 500px;
+    border: none;
+    border-radius: 8px;
+}
+
+.edit-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.save-btn, .cancel-btn {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.save-btn {
+    background: #28a745;
+    color: white;
+}
+
+.save-btn:hover {
+    background: #218838;
+}
+
+.cancel-btn {
+    background: #6c757d;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background: #5a6268;
+}
+
+/* ============================================
+   FILE UPLOAD SECTION
+   ============================================ */
+.upload-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.upload-section.active {
+    display: block;
+}
+
+.upload-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #667eea;
+}
+
+.upload-header h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.upload-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.upload-input-group label {
+    font-weight: bold;
+    color: #333;
+    font-size: 15px;
+}
+
+.upload-input-group input,
+.upload-input-group select {
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.upload-input-group input:focus,
+.upload-input-group select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.file-input-wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.file-input-wrapper input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-input-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #667eea;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    text-align: center;
+    width: 100%;
+}
+
+.file-input-button:hover {
+    background: #764ba2;
+}
+
+.file-name-display {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    color: #666;
+    word-break: break-word;
+}
+
+.upload-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.upload-btn:hover {
+    background: #764ba2;
+}
+
+.upload-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* ============================================
+   ADMIN MODAL
+   ============================================ */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #667eea;
+}
+
+.modal-header h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #666;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.modal-close:hover {
+    background: #f0f0f0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 15px;
+}
+
+.password-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.password-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.modal-error {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ffebee;
+    color: #c62828;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.modal-footer {
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.modal-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.modal-btn.primary {
+    background: #667eea;
+    color: white;
+}
+
+.modal-btn.primary:hover {
+    background: #764ba2;
+}
+
+.modal-btn.secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.modal-btn.secondary:hover {
+    background: #5a6268;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #667eea;
+}
+
+.error-message {
+    padding: 15px;
+    background: #ffebee;
+    color: #c62828;
+    border-radius: 5px;
+    margin: 10px 0;
+    word-break: break-word;
+}
+
+.success-message {
+    padding: 15px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 5px;
+    margin: 10px 0;
+    word-break: break-word;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ============================================
+   MOBILE RESPONSIVE DESIGN
+   ============================================ */
+@media (max-width: 768px) {
+    nav {
+        padding: 12px 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .vim-text {
+        font-size: 20px;
+    }
+
+    .welcome-section,
+    .library-container,
+    .file-viewer,
+    .upload-section {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .welcome-text {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .file-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .file-title-wrapper {
+        width: 100%;
+    }
+
+    .file-actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .file-content {
+        font-size: 14px;
+        padding: 15px;
+        max-height: 60vh;
+    }
+
+    .file-content.markdown h1 {
+        font-size: 24px;
+    }
+
+    .file-content.markdown h2 {
+        font-size: 20px;
+    }
+
+    .file-content.markdown h3 {
+        font-size: 18px;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .file-item, .folder-item {
+        padding: 10px 12px;
+    }
+
+    .item-name {
+        font-size: 14px;
+    }
+
+    .modal-content {
+        margin: 10px;
+    }
+
+    .modal-header h2 {
+        font-size: 18px;
+    }
+
+    .edit-actions {
+        flex-direction: column;
+    }
+
+    .save-btn, .cancel-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .vim-text {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .welcome-section,
+    .library-container,
+    .file-viewer,
+    .upload-section {
+        margin: 10px;
+        padding: 12px;
+    }
+
+    .file-content {
+        font-size: 13px;
+        padding: 12px;
+    }
+
+    .file-title {
+        font-size: 18px;
+    }
+
+    .edit-btn, .delete-btn, .close-btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}
