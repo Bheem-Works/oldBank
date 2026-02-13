@@ -4,15 +4,7 @@
   "description": "Vim Library - Book and document management system",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "vercel dev",
-    "build": "vercel build"
+    "start": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "multer": "^1.4.5-lts.1"
-  },
-  "devDependencies": {
-    "vercel": "^latest"
-  }
+  "dependencies": {}
 }
